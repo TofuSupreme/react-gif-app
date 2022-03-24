@@ -1,4 +1,11 @@
-# react-boilerplate
+# React Gif App
+
+# What is this app?
+
+A simple yet dynamic SPA with a giphy API using React.js. 
+Users can type in keywords into the search bar.
+A number of results will appear.
+User can also click on images on right panel which will then appear on left panel. 
 
 Simple react starter with the following config:
 
