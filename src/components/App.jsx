@@ -1,9 +1,21 @@
 import React from 'react';
 
+import Gif from './Gif';
+import GifList from './GifList';
+import SearchBar from './SearchBar';
+
 const App = () => {
   return (
     <div>
-      Hello from the App!
+      <div className="left-scene">
+        <SearchBar />
+        <div className="selected-gif">
+          <Gif gifId="13HgwGsXF0aiGY"/>
+        </div>
+      </div>
+      <div className="right-scene">
+        <GifList />
+      </div>
     </div>
   );
 };
